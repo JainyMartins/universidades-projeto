@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h2 class="h2" text-h5 text-center mb-3 mt-5>
+    <h2 class="h2 text-h5 text-center mb-3 mt-5">
       <v-icon>mdi-school</v-icon>
       Universidades do Reino Unido
     </h2>
