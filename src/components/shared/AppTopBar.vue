@@ -1,6 +1,6 @@
 <template>
   <div class="app-top-bar">
-    <v-app-bar color="deep-purple accent-4" dark>
+    <v-app-bar color="#001a69" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>Universidades do Reino Unido</v-toolbar-title>
 
@@ -16,7 +16,7 @@
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense >
-        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+        <v-list-item-group v-model="group" active-class="red darken-3--text text--accent-4">
 
         <router-link to="/">
             <v-list-item>
@@ -57,5 +57,9 @@ export default {
 <style scoped>
     .app-top-bar a{
         text-decoration: none;
+    }
+
+    .v-list-item-group .v-list-item--active{
+        color: white;
     }
 </style>
