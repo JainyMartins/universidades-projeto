@@ -10,10 +10,9 @@
             :value="darkMode" 
             @change="toggleDarkMode">
         </v-switch>
-
-    <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-    </v-btn>
+       <v-list-item-icon >
+                <v-icon size="20">mdi-brightness-6</v-icon>
+        </v-list-item-icon>
 
     <v-menu left bottom> </v-menu>
 
