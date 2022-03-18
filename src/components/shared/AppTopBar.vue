@@ -1,16 +1,8 @@
 <template>
   <div class="app-top-bar">
     <v-app-bar color="#001a69" dark>
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title>Universidades do Reino Unido</v-toolbar-title>
-
-    <v-spacer></v-spacer>
-
-    <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-    </v-btn>
-
-    <v-menu left bottom> </v-menu>
+      <v-app-bar-nav-icon @click="drawer = true" class="pl-11"></v-app-bar-nav-icon>
+      <v-tool-title class="pl-4">Menu</v-tool-title>
 
     </v-app-bar>
 
