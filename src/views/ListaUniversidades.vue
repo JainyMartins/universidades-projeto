@@ -2,6 +2,30 @@
 
     <v-container>
         <h2 class="titulo text-h5">Lista de Universidades 🎓</h2>
+
+        <v-simple-table>
+            <template v-slot:default>
+                <thead>
+                    <tr>
+                        <th colspan="3">Universidade</th>
+                        <th>Domíno</th>
+                        <th>Web Page</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr v-for="(universidade, index) of listaUniversidadesAlfabetica" :key="universidade.country">
+                    <td>{{ index + 1 }}</td>
+                    <td>
+                        <span>{{ universidade.name }}</span>
+                    </td>
+                    <td>{{ universidade.domains }}</td>
+                    <td>{{ universidade.web_pages }}</td>
+                </tr>
+            </tbody>
+            </template>
+        </v-simple-table>
+
+        <h2 class="text-h5 text-center mb-3 mt-5">Classificação</h2>
     </v-container>
 
 </template>
