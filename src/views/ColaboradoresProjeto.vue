@@ -1,10 +1,10 @@
 <template>
   <container>
-    <h2 class="titulo2 mt-5 text-h5 ">Colaboradores 🧑‍💻</h2>
+    <h2 class="titulo2 mt-5 mb-5 text-h5">Colaboradores 🧑‍💻</h2>
 
     <v-simple-table>
       <template>
-        <tbody>
+        <tbody class="teste">
           <tr v-for="colaborador of Colaboradores" :key="colaborador.id">
             <td>
               <v-avatar size="62" mb-50 mt-5>
@@ -119,5 +119,9 @@ linkedIn: 'https://www.linkedin.com/'
   margin-bottom: 3px;
   margin-top: 5px;
   text-align: center;
+}
+
+.teste a {
+  color: #55C0EF;
 }
 </style>
