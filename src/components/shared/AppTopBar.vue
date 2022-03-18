@@ -6,6 +6,12 @@
 
     <v-spacer></v-spacer>
 
+        <v-switch 
+            :value="darkMode" 
+            @change="toggleDarkMode" 
+        >
+        </v-switch>
+
     <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
     </v-btn>
@@ -46,11 +52,20 @@
 
 <script>
 export default {
-    name: 'AppTopBar',
-    data: () => ({
-        drawer: false,
-        group: null,
-    }),
+  name: "AppTopBar",
+  
+  data: () => ({
+    darkMode: false,
+    drawer: false,
+    group: null,
+  }),
+  methods: {
+      toggleDarkMode: function () {
+        this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+        this.darkMode = !this.darkMode;
+      }
+  },
+  
 };
 </script>
 
