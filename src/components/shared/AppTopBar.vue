@@ -7,6 +7,9 @@
 
       <v-spacer></v-spacer>
 
+      <router-link to="/"></router-link>
+      <router-link to="/listauniversidades"></router-link>
+
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
       </v-btn>
