@@ -24,8 +24,6 @@
             </tbody>
             </template>
         </v-simple-table>
-
-        
     </v-container>
 
 </template>
