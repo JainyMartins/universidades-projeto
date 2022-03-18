@@ -4,7 +4,7 @@
             <v-icon>mdi-school</v-icon>
             Universidades do Reino Unido
         </h2>
-        <v-img class="inicio-imagem " src="https://st2.depositphotos.com/6193152/10087/i/950/depositphotos_100876046-stock-photo-oxford-university-oxford-united-kingdom.jpg"
+        <v-img class="inicio-imagem" src="https://st2.depositphotos.com/6193152/10087/i/950/depositphotos_100876046-stock-photo-oxford-university-oxford-united-kingdom.jpg"
       alt="">></v-img>
         <p>Pensando em estudar no Reino Unido e não sabe qual Universidade escolher? Basta acessar a próxima página para ter acesso a uma lista das melhores Universidades para se estudar. 
         </p>
