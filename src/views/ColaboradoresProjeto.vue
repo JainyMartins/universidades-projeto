@@ -1,6 +1,6 @@
 <template>
   <container>
-    <h2 class="titulo2 mt-5 text-h5">Colaboradores 🧑‍💻</h2>
+    <h2 class="titulo2 mt-5 text-h5 ">Colaboradores 🧑‍💻</h2>
 
     <v-simple-table>
       <template>
