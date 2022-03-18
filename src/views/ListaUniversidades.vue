@@ -3,7 +3,7 @@
     <h2 class="titulo text-h5">Lista de Universidades 🎓</h2>
 
     <v-form @submit.prevent="searchByName">
-      <v-text-field label="Busca" hide-details="auto" v-model="searchTerm">
+      <v-text-field label="Busca" hide-details="auto" v-model="searchTerm" color="#001a69">
       </v-text-field>
     </v-form>
 
