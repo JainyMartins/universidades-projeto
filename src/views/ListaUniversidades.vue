@@ -7,19 +7,19 @@
             <template v-slot:default>
                 <thead>
                     <tr>
-                        <th>Universidade</th>
+                        <th colspan="3">Universidade</th>
                         <th>Domíno</th>
                         <th>Web Page</th>
                     </tr>
                 </thead>
             <tbody>
-                <tr v-for="(universidade, index) of ListaUniversidades" :key="universidade.country">
+                <tr v-for="(universidade, index) of listaUniversidadesAlfabetica" :key="universidade.country">
                     <td>{{ index + 1 }}</td>
                     <td>
                         <span>{{ universidade.name }}</span>
                     </td>
                     <td>{{ universidade.domains }}</td>
-                    <td>{{ universidade.web_pages }}
+                    <td>{{ universidade.web_pages }}</td>
                 </tr>
             </tbody>
             </template>
@@ -41,7 +41,7 @@ export default {
     computed: {
         listaUniversidadesAlfabetica(){
             const listaAlfabetica = this.listaUniversidades.slice(0).sort(
-                (a, b) => a.name > b.name ? -1 : 1
+                (a, b) => a.name < b.name ? -1 : 1
             );
             return listaAlfabetica
         }
