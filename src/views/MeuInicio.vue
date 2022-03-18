@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <h2 class="h2" text-h5 text-center mb-3 mt-5>
-      <v-icon>mdi-school</v-icon>
+    <h2 class="h2 text-h5 text-center mb-3 mt-5">
       Universidades do Reino Unido
+      <v-icon>mdi-school</v-icon>
     </h2>
 
     <v-img
@@ -12,12 +12,12 @@
     >
     </v-img>
 
-    <p>
+    <p class="font-weight-bold">
       Pensando em estudar no Reino Unido e não sabe qual Universidade escolher?
       Basta acessar a próxima página para ter acesso a uma lista das melhores
       Universidades para se estudar.
     </p>
-    <p>
+    <p class="font-weight-bold">
       Nessa lista você pode acessar os sites das principais universidades de
       maneira simples e rápida!
     </p>
