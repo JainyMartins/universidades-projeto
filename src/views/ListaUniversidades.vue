@@ -1,7 +1,9 @@
 <template>
+
     <v-container>
         <h2 class="titulo text-h5">Lista de Universidades 🎓</h2>
     </v-container>
+
 </template>
 
 <script>
