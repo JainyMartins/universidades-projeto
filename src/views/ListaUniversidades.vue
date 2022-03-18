@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h2 class="text-h5 text-center mb-3 mt-5">Classificação</h2>
+        <h2 class="titulo text-h5">Lista de Universidades 🎓</h2>
     </v-container>
 </template>
 
@@ -15,7 +15,7 @@ export default {
     computed: {
         listaUniversidadesAlfabetica(){
             const listaAlfabetica = this.listaUniversidades.slice(0).sort(
-                (a, b) => a.name > b.name ? -1 : 1
+                (a, b) => a.name < b.name ? -1 : 1
             );
             return listaAlfabetica
         }
@@ -32,5 +32,9 @@ export default {
 </script>
 
 <style scoped>
-   
+   .titulo{
+       margin-bottom: 3px;
+       margin-top: 5px;
+       text-align: center;
+   }
 </style>
