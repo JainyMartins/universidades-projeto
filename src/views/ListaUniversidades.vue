@@ -1,7 +1,7 @@
 <template>
 
     <v-container>
-        <h2>Lista de Universidades</h2>
+        <h2 class="titulo text-h5">Lista de Universidades 🎓</h2>
 
         <v-simple-table>
             <template v-slot:default>
@@ -58,5 +58,9 @@ export default {
 </script>
 
 <style scoped>
-   
+   .titulo{
+       margin-bottom: 3px;
+       margin-top: 5px;
+       text-align: center;
+   }
 </style>
