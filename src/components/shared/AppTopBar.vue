@@ -2,14 +2,13 @@
   <div class="app-top-bar">
     <v-app-bar color="#001a69" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title>Menu</v-toolbar-title>
+      <v-toolbar-title class="pl-0">Menu</v-toolbar-title>
 
-    <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
 
-        <v-switch 
+        <v-switch class="mt-6 " 
             :value="darkMode" 
-            @change="toggleDarkMode" 
-        >
+            @change="toggleDarkMode">
         </v-switch>
 
     <v-btn icon>
