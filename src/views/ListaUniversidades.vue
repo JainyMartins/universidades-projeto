@@ -24,8 +24,6 @@
             </tbody>
             </template>
         </v-simple-table>
-
-        <h2 class="text-h5 text-center mb-3 mt-5">Classificação</h2>
     </v-container>
 
 </template>

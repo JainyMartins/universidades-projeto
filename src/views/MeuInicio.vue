@@ -36,6 +36,5 @@ export default {
 }
 .h2 {
   font-size: 22px;
-  text-align: center;
 }
 </style>
