@@ -24,11 +24,6 @@
             </tbody>
             </template>
         </v-simple-table>
-<<<<<<< HEAD
-=======
-
-        
->>>>>>> 0eff5a5b4ee194f53747f4a768a0a8cbd392674d
     </v-container>
 
 </template>
